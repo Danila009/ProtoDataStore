@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "com.example.protodatastore";
+option java_multiple_files = true;
+
+message Person{
+  string username = 1;
+  int32 age = 2;
+}
